@@ -21,7 +21,9 @@ We calculate the coefficient and intercept by using sklearn linear model. Our co
 
 ### Polynomial Regression Solution.
 We calculate the solution by using sklearn.preprocessing PolynomialFeatures. Our coefficient is changing respect to data, and Intercept is 153.70361. MSE has reduced to 5790.67 and cost has reduced -0.13. Best degree for us is 7. As seen in the calculation after 7 degree, the MSE is increasing.
+
 ### Degree 2
+
  ![image](https://github.com/onlinEngineer/Nonlinear-regression-Gaussian-and-Kernel-Density-estimation/assets/70773825/088c1500-3b42-4141-af7c-c7839c27f56a)
 
  ![image](https://github.com/onlinEngineer/Nonlinear-regression-Gaussian-and-Kernel-Density-estimation/assets/70773825/a0214f72-599a-4f54-9c4d-d983803ded8b)
@@ -32,6 +34,7 @@ We calculate the solution by using sklearn.preprocessing PolynomialFeatures. Our
 ![image](https://github.com/onlinEngineer/Nonlinear-regression-Gaussian-and-Kernel-Density-estimation/assets/70773825/19caa2cb-4e43-4dae-a873-853156fef82d)
 
 ### Degree 7
+
   ![image](https://github.com/onlinEngineer/Nonlinear-regression-Gaussian-and-Kernel-Density-estimation/assets/70773825/e67e4866-6b51-48fd-8641-7cbf50effdc9)
 ![image](https://github.com/onlinEngineer/Nonlinear-regression-Gaussian-and-Kernel-Density-estimation/assets/70773825/3cf085b5-ee97-4aef-ae23-a3a5cb959923)
 
@@ -45,13 +48,13 @@ We calculate the solution by using sklearn.preprocessing PolynomialFeatures. Our
 We calculate the solution by using sklearn.gaussian_process GaussianProcessRegressor.
 When we used Gaussian Kernel Regression, the MSE increased 5793.19 and Cost is remained the same with Polynomial Solution even if degrees are changed. Best degree for gaussian solution is 2.
 
-Degree 2
+### Degree 2
  ![image](https://github.com/onlinEngineer/Nonlinear-regression-Gaussian-and-Kernel-Density-estimation/assets/70773825/86415b26-7bbd-44cd-bdf0-d115927c25af)
 ![image](https://github.com/onlinEngineer/Nonlinear-regression-Gaussian-and-Kernel-Density-estimation/assets/70773825/a63784a9-0c44-4089-8009-167d11f95f51)
 
  
 
-Degree 3
+### Degree 3
  ![image](https://github.com/onlinEngineer/Nonlinear-regression-Gaussian-and-Kernel-Density-estimation/assets/70773825/c5e855fb-731c-4b33-ba71-738130bbee83)
 ![image](https://github.com/onlinEngineer/Nonlinear-regression-Gaussian-and-Kernel-Density-estimation/assets/70773825/468b9541-e67a-4107-9f09-33b97c420ba9)
 
